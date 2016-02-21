@@ -3,7 +3,8 @@ Implement searching in angularjs, sorting in angularjs and pagination in angular
 
 Download --> Click on Download as zip, on your right to download the code.
 
-Demo : <a href="http://code.ciphertrick.com/demo/search-sort-pagination/">http://code.ciphertrick.com/demo/search-sort-pagination/</a> </br>
+Demo : <a href="http://code.ciphertrick.com/demo/search-sort-pagination/">https://github.com/rahil471/search-sort-and-pagination-angularjs.git</a> </br>
 
 Complete Tutorial : - <a href="http://code.ciphertrick.com/2015/06/01/search-sort-and-pagination-ngrepeat-angularjs/">http://code.ciphertrick.com/2015/06/01/search-sort-and-pagination-ngrepeat-angularjs/</a>
 
+https://github.com/rahil471/search-sort-and-pagination-angularjs.git
