@@ -25,12 +25,16 @@ app.directive("smartTable", function () {
             };
         },
         link: function postLink(scope, element, attrs) {
-            element.find(".table").css("margin-bottom","0px");
+            element.find("table").css("margin-bottom","0px");
+            angular.element(element.find("p")[0]).css("position","absolute");
             scope.entriesOptions = [10,25,50,100];
             scope.sort = function (keyname) {
                 scope.sortKey = keyname;   //set the sortKey to the param passed
                 scope.reverse = !scope.reverse; //if true make it false and vice versa
             }
+            scope.pageChange = function(newPageNumber, oldPageNumber){
+                console.log(newPageNumber, oldPageNumber);
+            };
             scope.numEntries = 10;
 
         }
